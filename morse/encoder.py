@@ -39,11 +39,11 @@ def encode_word(word):
 
 if __name__ == "__main__":
     # Example usage for one word
-    EXAMPLE_TEXT = "abc"
+    EXAMPLE_TEXT = "Hi"
     ENCODED_TEXT = encode_word(EXAMPLE_TEXT)
     print(f"Encoded word '{EXAMPLE_TEXT}' to Morse code: '{ENCODED_TEXT}'")
 
     # Example usage for a sentence
-    EXAMPLE_TEXT = "abc ABC"
+    EXAMPLE_TEXT = "Hi guys"
     ENCODED_TEXT = encode(EXAMPLE_TEXT)
     print(f"Encoded '{EXAMPLE_TEXT}' to Morse code: '{ENCODED_TEXT}'")
